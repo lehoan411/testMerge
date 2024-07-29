@@ -89,7 +89,7 @@ const Home = () => {
                                                 <i className="ion-heart"></i> {article.favoritesCount}
                                             </button>
                                         </div>
-                                        <a href="#" className="preview-link" style={{ textDecoration: 'none' }}>
+                                        <a href="/userarticle" className="preview-link" style={{ textDecoration: 'none' }}>
                                             <h1 style={{ color: 'black' }}>{article.title}</h1>
                                             <p>{article.description}</p>
                                             <span>Read more...</span>

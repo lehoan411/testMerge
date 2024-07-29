@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from './components/Home';
 import NewArticle from './components/NewArticle';
+import UserArticleDetail from './components/UserArticleDetail';
 function App() {
   return (
     <div>
@@ -15,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path='/editor' element={<NewArticle/>}/>
+        <Route path='/userarticle' element={<UserArticleDetail/>}/>
+      
       </Routes>
       <Footer/>
       </BrowserRouter>
