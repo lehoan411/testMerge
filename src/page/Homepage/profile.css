@@ -1,0 +1,125 @@
+.bgProfile {
+    text-align: center;
+    background: #f3f3f3;
+    padding: 2rem 0 1rem 0;
+    position: relative;
+
+}
+
+.bgProfile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+}
+
+.bgProfile h4 {
+    margin-top: 0;
+}
+
+.bgProfile a {
+    position: absolute;
+    color: #999;
+    border: 1px solid #999;
+    right: 22%;
+    bottom: 5%;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.articles-toggle {
+    margin: 0 auto;
+    width: 72%;
+    margin-top: 40px;
+
+}
+
+.arcticles-toggle .nav-link {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+    color: #aaa;
+}
+
+.nav-pills .nav-link.active {
+    background: #fff !important;
+    border-bottom: 2px solid #5CB85C !important;
+    color: #5CB85C !important;
+}
+
+.articles-toggle .nav-item {
+    background-color: white;
+}
+
+.artical-meta .author img {
+    padding: 6px;
+    margin-left: -6px;
+}
+
+.article-preview .readm {
+
+    max-width: 30%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #bbb;
+    vertical-align: middle;
+}
+
+.favorite-button {
+    color: #5CB85C;
+    background-color: white;
+    border-color: #5CB85C;
+}
+
+.favorite-button:hover {
+    color: #fff;
+    background-color: #5CB85C;
+    border-color: #5CB85C;
+}
+
+.artical-meta a {
+    color: #5CB85C !important;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.artical-meta a:hover {
+    color: #3d8b3d !important;
+    text-decoration: underline !important;
+}
+
+.artical-meta .rounded-circle {
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    width: 32px;
+    border-radius: 30px;
+}
+
+.nav-pills .nav-link {
+    color: #555;
+}
+
+.nav-pills .nav-link:hover {
+    color: black;
+}
+
+.article-description {
+    display: block;
+}
+
+.titles1 {
+    font-size: 25px;
+}
+
+.biouser {
+    color: #bbb;
+    font-weight: 500;
+}
